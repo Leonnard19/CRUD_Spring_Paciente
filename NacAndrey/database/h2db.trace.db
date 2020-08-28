@@ -1,0 +1,15 @@
+2020-08-27 22:09:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" not found; SQL statement:
+INSERT INTO PACIENTES(codigo, nome, data_nascimento, email, cpf, fumante) VALUES (SQ_TAREFA.nextval, 'Lionnard', '1995-05-19', 'lion@gmail.com', '45672548948', FALSE) [42102-200]
+2020-08-27 22:10:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" not found; SQL statement:
+INSERT INTO PACIENTES(codigo, nome, data_nascimento, email, cpf, fumante) VALUES (SQ_TAREFA.nextval, 'Lionnard', '1995-05-19', 'lion@gmail.com', '45672548948', FALSE) [42102-200]
+2020-08-27 22:13:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" not found; SQL statement:
+INSERT INTO PACIENTES(codigo, nome, data_nascimento, email, cpf, fumante) VALUES (SQ_TAREFA.nextval, 'Lionnard', '1995-05-19', 'lion@gmail.com', '45672548948', FALSE) [42102-200]
+2020-08-27 22:13:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PACIENTE(CODIGO, NOME, DATA_NASCIMENTO, EMAIL, CPF, FUMANTE) VALUES (SQ_TAREFA.NEXTVAL,[*] 'Lionnard', '1995-05-19', 'lion@gmail.com', '45672548948', FALSE)"; expected "identifier"; SQL statement:
+INSERT INTO PACIENTE(codigo, nome, data_nascimento, email, cpf, fumante) VALUES (SQ_TAREFA.nextval, 'Lionnard', '1995-05-19', 'lion@gmail.com', '45672548948', FALSE) [42001-200]
+2020-08-27 22:16:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PACIENTE(CODIGO, NOME, DATA_NASCIMENTO, EMAIL, CPF, FUMANTE) VALUES (SQ_TAREFA.NEXTVAL,[*] 'Lionnard', '1995-05-19', 'lion@gmail.com', '45672548948', FALSE)"; expected "identifier"; SQL statement:
+INSERT INTO PACIENTE(codigo, nome, data_nascimento, email, cpf, fumante) VALUES (SQ_TAREFA.nextval, 'Lionnard', '1995-05-19', 'lion@gmail.com', '45672548948', FALSE) [42001-200]
