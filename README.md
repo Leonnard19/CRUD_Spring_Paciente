@@ -3,6 +3,7 @@
 ## Running the app
 
 ```bash
+BASE_URL =  https://nac-andrey.herokuapp.com/
 GET/pacientes
 -------------------------
 POST/pacientes
